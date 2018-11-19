@@ -14,7 +14,6 @@ The goals / steps of this project are the following:
 [image2]: ./examples/HOG_example.jpg
 [image3]: ./examples/sliding_windows.jpg
 [image4]: ./output_images/pipeline1.png
-[image44]: ./output_images/pipeline2.png
 [image5]: ./examples/bboxes_and_heat.png
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
@@ -63,11 +62,10 @@ I used a hog sub-sampling sliding window search, which is benefitial because it 
 
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
-Ultimately, I searched on one scale using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a working result. Using HOG sub-sampling and a higher scaling factor really improved speed, as there is less processing per image. Here are some example images:
+Ultimately, I searched on one scale using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a working result. Using HOG sub-sampling and a higher scaling factor really improved speed, as there is less processing per image. Here is an example image:
 
 ![alt text][image4]
 
-![alt text][image44]
 ---
 
 ### Video Implementation
